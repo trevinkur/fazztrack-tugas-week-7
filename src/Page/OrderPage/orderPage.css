@@ -1,0 +1,85 @@
+.seat {
+    width: 26px;
+    height: 26px;
+    background-color: #D6D8E7;
+}
+
+.seat-available {
+    width: 26px;
+    height: 26px;
+    background-color: #D6D8E7;
+}
+
+.tables .num {
+    text-align: center;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    color: #4E4B66;
+}
+
+.seat-selected {
+    width: 26px;
+    height: 26px;
+    background-color: #5F2EEA;
+}
+
+.seat-sold {
+    width: 26px;
+    height: 26px;
+    background-color: #6E7191;
+}
+
+.bg-main-color{
+    background-color: #5F2EEA;
+}
+
+.grayscale-5 {
+    background-color: #6E7191;
+}
+
+@media (max-width:768px) {
+    .movie-selected {
+        display: none;
+    }
+    .movie-title {
+        display: none!important;
+    }
+    .checkout {
+        display: none;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .seat {
+        width: 14px;
+        height: 14px;
+    }
+
+    .seat-available {
+        width: 20px;
+        height: 20px;
+        background-color: #D6D8E7
+    }
+
+    .seat-selected {
+        width: 20px;
+        height: 20px;
+        background-color: #5F2EEA;
+    }
+    
+    .seat-sold {
+        width: 20px;
+        height: 20px;
+        background-color: #6E7191;
+    }
+
+    .letter {
+        display: none;
+    }
+
+    .table-num {
+        display: none;
+    }
+}

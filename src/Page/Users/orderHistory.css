@@ -1,0 +1,35 @@
+.logo-phone {
+    display: flex;
+}
+
+.logo-desktop {
+    display: none;
+}
+
+.profile-container {
+    padding: 0;
+}
+
+@media (max-width: 575.98px) {
+    .profile-container {
+        display: none!important;
+    }
+
+   
+
+   
+
+    .see-details {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-phone {
+        display: none;
+    } 
+
+    .logo-desktop {
+        display: block;
+    }
+}

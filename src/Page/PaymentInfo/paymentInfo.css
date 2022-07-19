@@ -1,0 +1,20 @@
+@media (max-width:576px) {
+    .payment-info {
+        display: none;
+    }
+    .date-container {
+        display: none!important;
+    }
+    .movie-title-container{
+        display: none!important;
+    }
+    .cinema-name-container {
+        display: none!important;
+    }
+    .tickets-container {
+        display: none!important;
+    }
+    .btn-change-movie {
+        display: none!important;
+    }
+}

@@ -1,0 +1,83 @@
+.nav-phone {
+    visibility: hidden;
+}
+
+.btn-scroll {
+    max-height: 60px;
+    display: flex;
+    overflow-x: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  
+/* Header*/
+
+.image-2 {
+    height: 100%;
+}
+
+.image-3 {
+    height: 100%;
+}
+
+.container-header {
+    padding: 40px;
+}
+
+
+.btn-container .button {
+    min-width: 127px;
+}
+
+.movie-scroll {
+    max-height: 500px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.movie-scroll .movie-card {
+    min-width: 230px;
+}
+
+.showing .line {
+    height: 2px;
+}
+
+.hamburger-button .line {
+    background-color: black;
+    height: 2px;
+    width: 16px;
+}
+
+.hamburger-button .line-2 {
+    background-color: black;
+    height: 2px;
+    width: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .nav-phone {
+        visibility: visible;
+    }
+
+    .navbar-desktop {
+        display: none;
+    }
+}
